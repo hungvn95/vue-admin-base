@@ -33,6 +33,7 @@ apiAxios.interceptors.response.use(undefined, (error) => {
       return router.push({name: 'Login'})
     }
   }
+  return Promise.reject(error);
 })
 
 export default {
