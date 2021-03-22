@@ -145,4 +145,21 @@ export default {
       }
     }
   }
+  
+  .el-main {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 90vh;
+    padding: 20px;
+  }
+
+  .el-main::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  .el-main::-webkit-scrollbar-thumb {
+    background-color: #C0C4CC;
+    border-radius: 8px;
+  }
 </style>
